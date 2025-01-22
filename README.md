@@ -4,7 +4,9 @@
 
 This repository contains the code to accompany the paper of the same name. An implementation of neighborhood energy modeling using the NEBULA dataset to predict domestic energy consumption at postcode level across England and Wales.
 
-The NEBULA dataset and associated papers can be found at https://github.com/graceebc9/NebulaDataset
+The NEBULA stock mmodel and associated papers can be found at https://github.com/sdgresearch/NebulaStockModel
+
+Pre Print - coming soon.
 
 ## Installation & Setup
 
