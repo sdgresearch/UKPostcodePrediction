@@ -1,4 +1,4 @@
-![Project Logo](images/logo.jpg | width=100)
+
 
 # Machine Learning Methods for Domestic Energy Prediction for Small-Neighbourhoods at National Scales in England and Wales
 
@@ -19,7 +19,7 @@ git clone https://github.com/sdgresearch/UKPostcodePrediction.git
 # Navigate to the project directory
 cd UKPostcodePrediction
 
-conda create -n nebula --file requirements.txt -c pytorch -c conda-forge -c defaults
+conda create -n nebula --file requsirements.txt -c pytorch -c conda-forge -c defaults
 conda activate nebula
 pip install SALib==1.5.1
 
