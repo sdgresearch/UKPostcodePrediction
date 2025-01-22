@@ -1,4 +1,5 @@
-![Project Logo](images/logo.jpg)
+![Project Logo](images/logo.jpg | width=100)
+
 # Machine Learning Methods for Domestic Energy Prediction for Small-Neighbourhoods at National Scales in England and Wales
 
 ## Overview
