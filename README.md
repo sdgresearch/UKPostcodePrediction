@@ -24,18 +24,24 @@ conda activate nebula
 
 ```
 UKPostcodePrediction/
-├── src/                        # Source code
-├── requirements.txt            # Env file
-├── run_automl.py              # Method file 
-├── run_gsa.py                 # Method File
-└── run_experiments.py         # Main ML experiments file
+.
+├── input_data/          # place Nebula stock model data here
+├── results/             # Model outputs
+│   ├── model_results/   # ML model predictions
+│   ├── regional_results/# Regional analysis 
+│   └── sobol_results/   # Sensitivity analysis  
+├── src/                 # Core source code
+└── scripts/
+    ├── extract_ml_res.py  # method file
+    ├── run_automl.py      # method file
+    ├── run_experiments.py # Main ML pipeline
+    └── run_gsa.py         # method file 
 ```
 
 ## Usage
-Run all experiments and collate results 
+To recreate the experiments, run all ML experiments, sobol analysis and collate results 
 
 ```python
-# Run AutoML pipeline
 python run_experiments.py
 
 ```
