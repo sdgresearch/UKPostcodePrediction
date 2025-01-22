@@ -69,6 +69,13 @@ def run_sobol_experiments():
         run_python_script('run_gsa.py')
 
 def main():
+    base_dir = 'results'
+    subdirs = ['model_results', 'regional_results']
+
+    os.makedirs(base_dir, exist_ok=True)
+    for subdir in subdirs:
+        os.makedirs(os.path.join(base_dir, subdir), exist_ok=True)
+
     print('Starting experiments...')
     run_model_experiments()
     
