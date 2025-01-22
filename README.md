@@ -1,3 +1,4 @@
+![Project Logo](images/logo.jpg)
 # Machine Learning Methods for Domestic Energy Prediction for Small-Neighbourhoods at National Scales in England and Wales
 
 ## Overview
@@ -17,10 +18,12 @@ git clone https://github.com/sdgresearch/UKPostcodePrediction.git
 # Navigate to the project directory
 cd UKPostcodePrediction
 
-conda create --name nebula --file requirements.txt
+conda create -n nebula --file requirements.txt -c pytorch -c conda-forge -c defaults
 conda activate nebula
+pip install SALib==1.5.1
 
 ```
+We recomend user then installs the correct version of autogluon for their operating system; https://auto.gluon.ai/dev/install.html
 
 ## Project Structure
 
